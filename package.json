@@ -1,0 +1,29 @@
+{
+  "name": "k8s-mean",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cshashank/node-k8s.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cshashank/node-k8s/issues"
+  },
+  "homepage": "https://github.com/cshashank/node-k8s#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}
